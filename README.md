@@ -59,7 +59,7 @@ git clone
 我已经把构建好的镜像上传了docker hub，通过以下命令拉取环境镜像
 
 ```
-docker pull aubrey888/mavision:latest
+sudo docker pull aubrey888/mavision:latest
 ```
 
 也可以自己构建镜像（可能会比较卡），运行构建脚本
@@ -81,4 +81,11 @@ docker pull aubrey888/mavision:latest
 4.shell.sh:在容器中打开新终端
 
 5.clear.sh:清除容器
+
+若遇到脚本权限不够，给该脚本附权
+
+```
+sudo chmod +x 该脚本
+```
+
 
