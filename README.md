@@ -50,9 +50,16 @@ sudo docker run hello-world
 
 ### 2.获取镜像
 
+docker安装好后clone该项目至你的电脑
+
+```
+git clone
+```
+
 我已经把构建好的镜像上传了docker hub，通过以下命令拉取环境镜像
 
 ```
+docker pull aubrey888/mavision:latest
 ```
 
 也可以自己构建镜像（可能会比较卡），运行构建脚本
