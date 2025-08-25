@@ -51,7 +51,7 @@ sudo docker run hello-world
 docker安装好后clone该项目至你的电脑
 
 ```
-git clone
+git clone https://github.com/Aubrey-xiang/ma_aim_deployment.git
 ```
 
 我已经把构建好的镜像上传了docker hub，通过以下命令拉取环境镜像
